@@ -98,6 +98,19 @@ export default function Home() {
               >
                 {appData.app.buttonText}
               </button>
+              <a
+                href="https://www.producthunt.com/products/momentum-daily-progress?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-momentum-daily-progress"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 w-fit"
+              >
+                <img
+                  alt="Momentum: Daily Progress - Daily Habit Tracker & Goal Log | Product Hunt"
+                  width={250}
+                  height={54}
+                  src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1198060&theme=light&t=1784197435568"
+                />
+              </a>
             </div>
             <div className="hidden sm:flex mt-2 items-start gap-2 relative">
               <button
